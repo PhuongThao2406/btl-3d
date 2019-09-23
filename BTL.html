@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Special Girls</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="BTL.js"></script>
+    <button name="Leftrotate" onmousedown="startleft()" onmouseup="endleft()"> <i class="  fa fa-chevron-circle-left"></i></button>
+     <button name="Rightrotate" onmousedown="startright()" onmouseup="endright()"> <i class="  fa fa-chevron-circle-right"></i></button>
+  </body>
+</html>
